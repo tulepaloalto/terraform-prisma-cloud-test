@@ -227,7 +227,7 @@ variable "compute_runtime_list_clusters" {
 variable "tenant_settings_enabled" {
   description = "(Optional) When true, Terraform manages the tenant's enterprise settings singleton. Default false. Requires tenant_access_key_max_validity to be set."
   type        = bool
-  default     = false
+  default     = true
 }
 
 variable "tenant_settings_adopt_existing" {
